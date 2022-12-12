@@ -1,0 +1,33 @@
+class :- A class is a user-defined data type 
+         that we can use in our program,
+         and it works as an object constructor, 
+         or creating objects.
+        
+ A class is defined using the class keyword
+
+ All the data members, and member functions of a class, 
+are private by default.
+
+Syntex:-
+
+class ClassName
+
+{ Access specifier:  //it can be private,public or protected
+
+  Data members;     // Variables to be used
+
+  member Functions() //Methods to access data members
+  { }
+
+};     // Class name ends with a semicolon
+
+Object:-
+
+ In C++, an object is created from a class.
+ 
+ object is an entity that has data and functionality.
+
+ All the members of the class 
+can be accessed through object.
+
+ Classname  object1; //creating an object
